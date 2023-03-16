@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lab9">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="appgod game"
+        android:label="appgodgame"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
